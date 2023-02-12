@@ -1,16 +1,13 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
 * {
-  color: #3C373B;
+  color:#3c373B; 
 }
-
 
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
   /*=======  Update the font size to 60px and center the text */
   font-size: 60px;
-  text-align: center;
-
 }
 
 h2, h3, h4, h5, h6 {
@@ -22,30 +19,26 @@ h2, h3, h4, h5, h6 {
 }
 
 /*======= Create a selector for ALL p tags in the site to have the following styles:
-
 font-size: 16px;
 font-family: roboto;
 padding: 10px;
 line-height: 1.4;
-
 */
 
 p {
-font-size: 16px;
-font-family: roboto;
-padding: 10px;
-line-height: 1.4;
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
 }
 
 
 /*======= Create a selector for ALL images in the site to have the following styles: 
-
   border-radius: 10px;
-
 */
 
 img {
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .content-row {
@@ -73,29 +66,21 @@ img {
   text-decoration: none;
   margin-bottom: 20px;
    /*======= create a background property. Set the value to #F87B99 */
-  background:#F87B99
+  background: #F87B99;
 }
 
 .container header nav a:hover {
 /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
-background: white;
-color: pink;
+  background: white;
+  color: pink;
 }
-
-#cookies div {
-  width: 300px;
-}
-
-#celebrations {
-  widrh: 300px;
-}
-
 
 /*======= Create a selector for the about section to have the following styles:
   margin-top: 20px;
-*/ 
-.about-section {
-  margin-top: 20px;
+*/
+
+.about-section{
+  margin: 20px;
 }
 
 .contact-section {
@@ -111,7 +96,8 @@ color: pink;
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:
    line-height: 2;
 */
-.contact-section address {
+
+.contact-section address{
   line-height: 2;
 }
 
@@ -119,7 +105,6 @@ footer {
   width: 100%;
   background: #F87B99;
   border-top: 1px dashed white;
-  align: center;
 }
 
 footer .footer-content { 
